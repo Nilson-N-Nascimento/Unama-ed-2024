@@ -13,6 +13,16 @@ int main() {
     pessoa.peso = 70;
     pessoa.altura = 170;
     printf("Peso: %i, Altura: %i\n ", pessoa.peso, pessoa.altura);
+    
+    if (pessoa.altura <= 110) {
+        printf("pode se divertir\n");
+
+    } else{
+        printf("voce nao pode entrar\n");
+
+    }
     return 0;
+
+    
 
 }
